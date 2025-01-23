@@ -1,3 +1,6 @@
+const availablePaths = [ "about.txt" ]
+
+
 Deno.serve(
   { hostname: "localhost", port: 8080 },
   async (request) => {
