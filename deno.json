@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "start": "deno --watch -N -R=./public file-server.ts"
+  }
+}
